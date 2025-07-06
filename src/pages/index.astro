@@ -1,0 +1,82 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<html lang="ja">
+  <head>
+    <title>ACT@SAKU新日本演劇 合同企画</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="群馬・前橋で開催される合同演劇企画の特設サイト" />
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+  <body class="bg-neutral-50 text-neutral-900 font-sans">
+    <!-- Hero Section -->
+    <header class="bg-white py-12 border-b border-neutral-200">
+      <div class="max-w-5xl mx-auto px-4 text-center">
+        <img src="/images/logo.png" alt="ACT@SAKU新日本演劇 合同企画" class="mx-auto h-20 mb-6" />
+        <h1 class="text-3xl sm:text-4xl font-semibold mb-2">ACT@SAKU × 新日本演劇</h1>
+        <p class="text-lg text-neutral-600">それぞれの視点、それぞれの物語。<br/>2025年秋、前橋で出会う二つの演劇。</p>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-16 bg-neutral-100">
+      <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-2xl font-semibold mb-4 border-b pb-2">この企画について</h2>
+        <p class="text-neutral-700 leading-relaxed">
+          「ACT@SAKU新日本演劇 合同企画」は、群馬県を拠点とする2つの演劇団体が、
+          それぞれの個性を活かした公演を2週に分けて上演する共同プロジェクトです。
+          世代や表現方法を超えて、演劇の魅力を地域に届けることを目的としています。
+        </p>
+      </div>
+    </section>
+
+    <!-- 公演比較 Section -->
+    <section class="py-20 bg-white">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-2xl font-semibold mb-10 text-center">公演紹介</h2>
+        <div class="grid md:grid-cols-2 gap-12">
+          <!-- 公演A -->
+          <div class="bg-neutral-50 border p-6 rounded-xl shadow-sm">
+            <h3 class="text-xl font-bold text-indigo-800 mb-2">ACT@SAKU 公演</h3>
+            <h4 class="text-lg font-semibold text-indigo-700 mb-2">『ちゅうちゅうちゅうや 鼠と猿』</h4>
+            <p class="text-sm text-neutral-600 mb-4">演出・脚本・出演など未定。<br/>公演内容やテーマがここに入ります。</p>
+            <ul class="text-sm text-neutral-700 space-y-1">
+              <li><strong>日時：</strong>2025年10月4日（土）・5日（日）</li>
+              <li><strong>会場：</strong>前橋市芸術文化れんが蔵</li>
+            </ul>
+          </div>
+
+          <!-- 公演B -->
+          <div class="bg-neutral-50 border p-6 rounded-xl shadow-sm">
+            <h3 class="text-xl font-bold text-rose-800 mb-2">新日本演劇 公演</h3>
+			<h4 class="text-lg font-semibold text-indigo-700 mb-2">『fallback』</h4>
+            <p class="text-sm text-neutral-600 mb-4">演出・脚本：新谷青。出演：相馬薫。<br/>責任をテーマにした静かな対話劇。</p>
+            <ul class="text-sm text-neutral-700 space-y-1">
+              <li><strong>日時：</strong>2025年10月11日（土）・12日（日）</li>
+              <li><strong>会場：</strong>前橋市芸術文化れんが蔵</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- お知らせ / News -->
+    <section class="py-16 bg-neutral-100">
+      <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-2xl font-semibold mb-4 border-b pb-2">お知らせ</h2>
+        <ul class="space-y-4 text-sm text-neutral-700">
+          <li>2025年7月：公式サイト公開</li>
+          <li>2025年8月：チケット発売予定</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <footer class="py-12 bg-white border-t border-neutral-200 text-center text-sm text-neutral-500">
+      <p>&copy; 2025 ACT@SAKU新日本演劇 合同企画</p>
+      <p class="mt-2">お問い合わせは <a href="mailto:info@example.com" class="text-indigo-600 underline">info@example.com</a> まで</p>
+    </footer>
+  </body>
+</html>
